@@ -6,9 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/d2x
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/d2x/proprietary/vendor/etc/LVACFS_Calibration.dat:$(TARGET_COPY_OUT_VENDOR)/etc/LVACFS_Calibration.dat \
-    vendor/samsung/d2x/proprietary/vendor/etc/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/LVACFS_Configuration.txt \
-    vendor/samsung/d2x/proprietary/vendor/etc/LVACFS_ControlParams.txt:$(TARGET_COPY_OUT_VENDOR)/etc/LVACFS_ControlParams.txt \
     vendor/samsung/d2x/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/d2x/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/d2x/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
@@ -99,15 +96,7 @@ PRODUCT_PACKAGES += \
     libiu456_datapath_processor \
     sensors.bio \
     sensors.sensorhub \
-    libaudioeffectoffload \
-    audio.primary.exynos9825 \
-    lib_SamsungRec_08020 \
-    lib_lvacfs \
-    libaudioproxy \
-    librecordalive \
     libswdap \
-    vendor.samsung.hardware.bluetooth.a2dp@1.0 \
-    vendor.samsung_slsi.hardware.ExynosA2DPOffload@3.0 \
     android.hardware.gnss@2.1-impl \
     camera.exynos9825 \
     gps.default \
